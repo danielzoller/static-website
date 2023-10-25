@@ -5,14 +5,14 @@
 /* ============================================== */
 
 /* ============================================== */
-/* WEB FONT >> Code Saver */
+/* WEB FONT >> Intervogue Soft */  /* 👻👻👻👻 Update this 👻👻👻👻 */
 /* ============================================== */
 
-/* Some Font Regular */
+/* Intervogue Soft - Bold */ /* 👻👻👻👻 Update this 👻👻👻👻 */
 @font-face {
-	font-family: 'somefont-regular';
-	src: url('/static/fonts/somefont-regular.woff2') format('woff2'),
-	     url('/static/fonts/somefont-regular.woff') format('woff');
+	font-family: 'intervoguesoft-bold';
+	src: url('/static/fonts/intervoguesoft-bold.woff2') format('woff2'),
+	     url('/static/fonts/intervoguesoft-bold.woff') format('woff');
 	font-weight: normal !important;
 	font-style: normal !important;
 }
@@ -104,6 +104,27 @@ body {
 /* PROJECT STYLES */
 /* ============================================== */
 /* ============================================== */
+
+/* 👻👻👻👻 Remove this 👻👻👻👻 */
+.hello {
+    font-family: 'intervoguesoft-bold', sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* 👻👻👻👻 Remove this 👻👻👻👻 */
+.croc {
+    max-width: 900px;
+    display: block;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 /* ============================================== */
 /* FIRST SECTION */

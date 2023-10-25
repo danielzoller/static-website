@@ -4,7 +4,18 @@
 /* ============================================== */
 /* ============================================== */
 
- /* 👻 Update this */
+/* ============================================== */
+/* WEB FONT >> Intervogue Soft */  /* 👻👻👻👻 Update this 👻👻👻👻 */
+/* ============================================== */
+
+/* Intervogue Soft - Bold */ /* 👻👻👻👻 Update this 👻👻👻👻 */
+@font-face {
+	font-family: 'intervoguesoft-bold';
+	src: url('/static/fonts/intervoguesoft-bold.woff2') format('woff2'),
+	     url('/static/fonts/intervoguesoft-bold.woff') format('woff');
+	font-weight: normal !important;
+	font-style: normal !important;
+}
 
 /* ============================================== */
 /* ============================================== */
@@ -17,10 +28,10 @@
 /* ============================================== */
 
 html.page-404 {
-    background-color: none;
-    background-image: url(""); /* 👻 Update this */
-    background-repeat: repeat;
-    background-size: 400px;
+    background-color: black;
+    background-image: url(""); /* 👻👻👻👻 Update this 👻👻👻👻 */
+    /* background-repeat: repeat; */ /* 👻👻👻👻 Update this 👻👻👻👻 */
+    /* background-size: 400px; */ /* 👻👻👻👻 Update this 👻👻👻👻 */
 }
 
 /* ============================================== */
@@ -29,7 +40,7 @@ html.page-404 {
 
 .div-404 {
     text-align: center;
-    background-color: #FFFFFF; /* 👻 Update this, use partial opacity */
+    background-color: #FFFFFF; /* 👻👻👻👻 Update this, use partial opacity 👻👻👻👻 */
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
@@ -83,8 +94,8 @@ html.page-404 {
 /* ============================================== */
 
 .number-404 {
-    color: black; /* 👻 Update this */
-    font-family: sans-serif; /* 👻 Update this */
+    color: black; /* 👻👻👻👻 Update this 👻👻👻👻 */
+    font-family: 'intervoguesoft-bold', sans-serif; /* 👻👻👻👻 Update this 👻👻👻👻 */
     font-size: 60px;
     display: block;
     line-height: 1;
@@ -107,8 +118,8 @@ html.page-404 {
 /* ============================================== */
 
 .does-not-exist {
-    color: black; /* 👻 Update this */
-    font-family: sans-serif; /* 👻 Update this */
+    color: black; /* 👻👻👻👻 Update this 👻👻👻👻 */
+    font-family: 'intervoguesoft-bold', sans-serif; /* 👻👻👻👻 Update this 👻👻👻👻 */
     font-size: 26px;
     display: block;
     line-height: 1;
