@@ -1,0 +1,127 @@
+/* ============================================== */
+/* ============================================== */
+/* IMPORT WEB FONTS */
+/* ============================================== */
+/* ============================================== */
+
+ /* 👻 Update this */
+
+/* ============================================== */
+/* ============================================== */
+/* 404 STYLES */
+/* ============================================== */
+/* ============================================== */
+
+/* ============================================== */
+/* 404 >> HTML background */
+/* ============================================== */
+
+html.page-404 {
+    background-color: none;
+    background-image: url(""); /* 👻 Update this */
+    background-repeat: repeat;
+    background-size: 400px;
+}
+
+/* ============================================== */
+/* 404 >> main div */
+/* ============================================== */
+
+.div-404 {
+    text-align: center;
+    background-color: #FFFFFF; /* 👻 Update this, use partial opacity */
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    border-radius: 18px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 390px) {
+    .div-404 {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .div-404 {
+        max-width: 370px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .div-404 {
+        max-width: 500px;
+        margin-top: 160px;
+        border-radius: 20px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .div-404 {
+        max-width: 600px;
+        margin-top: 180px;
+        border-radius: 20px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .div-404 {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+}
+
+/* ============================================== */
+/* 404 >> '404' bold text */
+/* ============================================== */
+
+.number-404 {
+    color: black; /* 👻 Update this */
+    font-family: sans-serif; /* 👻 Update this */
+    font-size: 60px;
+    display: block;
+    line-height: 1;
+}
+
+@media only screen and (min-width: 700px) {
+    .number-404 {
+        font-size: 68px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .number-404 {
+        font-size: 72px;
+    }
+}
+
+/* ============================================== */
+/* 404 >> 'Page doesn't exist' light text */
+/* ============================================== */
+
+.does-not-exist {
+    color: black; /* 👻 Update this */
+    font-family: sans-serif; /* 👻 Update this */
+    font-size: 26px;
+    display: block;
+    line-height: 1;
+}
+
+@media only screen and (min-width: 700px) {
+    .does-not-exist {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .does-not-exist {
+        font-size: 36px;
+    }
+}
