@@ -1,4 +1,4 @@
-@import url('static/css/global.css');
+@import url('global.css');
 
 /* ============================================== */
 /* ============================================== */
@@ -13,8 +13,8 @@
 /* Intervogue Soft - Bold */ /* 👻👻👻👻 Update this 👻👻👻👻 */
 @font-face {
 	font-family: 'intervoguesoft-bold';
-	src: url('static/fonts/intervoguesoft-bold.woff2') format('woff2'),
-	     url('static/fonts/intervoguesoft-bold.woff') format('woff');
+	src: url('../fonts/intervoguesoft-bold.woff2') format('woff2'),
+	     url('../fonts/intervoguesoft-bold.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
