@@ -1,3 +1,5 @@
+@import url(/static/css/global.css);
+
 /* ============================================== */
 /* ============================================== */
 /* IMPORT WEB FONTS */
@@ -13,8 +15,8 @@
 	font-family: 'intervoguesoft-bold';
 	src: url('/static/fonts/intervoguesoft-bold.woff2') format('woff2'),
 	     url('/static/fonts/intervoguesoft-bold.woff') format('woff');
-	font-weight: normal !important;
-	font-style: normal !important;
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* ============================================== */

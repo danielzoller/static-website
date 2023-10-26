@@ -1,3 +1,5 @@
+@import url(/static/css/global.css);
+
 /* ============================================== */
 /* ============================================== */
 /* IMPORT WEB FONTS */
@@ -13,90 +15,8 @@
 	font-family: 'intervoguesoft-bold';
 	src: url('/static/fonts/intervoguesoft-bold.woff2') format('woff2'),
 	     url('/static/fonts/intervoguesoft-bold.woff') format('woff');
-	font-weight: normal !important;
-	font-style: normal !important;
-}
-
-/* ============================================== */
-/* ============================================== */
-/* GLOBAL ADJUSTMENTS */
-/* ============================================== */
-/* ============================================== */
-
-/* Better box model */
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-/* Font rendering (consistency) */
-html {
-	font-weight: normal !important;
-	font-style: normal !important;
-}
-
-@-moz-document url-prefix() {
-	html {
-		font-weight: normal !important;
-		font-style: normal !important;
-	}
-}
-
-/* Default line height */
-html {
-	line-height: 1.15;
-}
-  
-/* Default tab size */
-:root {
-	tab-size: 4;
-	-moz-tab-size: 4; /* Firefox */
-}
-
-/* Prevent automated adjustments of font size */
-html {
-	text-size-adjust: 100%;	
-	-webkit-text-size-adjust: 100%; /* Safari, Chrome */
-	-ms-text-size-adjust: 100%; /* Explorer, Edge */
-	-moz-text-size-adjust: 100%; /* Firefox */
-}
-
-/* Remove 'tap highlight' on mobile browsers */
-a:active, a:focus {
-	outline: none;
-	-webkit-tap-highlight-color: transparent !important;
-}
-
-/* Remove default margin and padding */
-*,
-*::before,
-*::after {
-  margin: unset;
-  padding: unset;
-}
-
-/* Inherit fonts for inputs and buttons */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-}
-
-/* Pointer on link hover */
-a:hover, button:hover {
-    cursor:pointer;
-}
-
-/* Body width 100% */
-body {
-    width: 100%;
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* ============================================== */
