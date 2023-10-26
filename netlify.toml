@@ -1,9 +1,9 @@
-# Specify the directory to publish
 [build]
   publish = "publish/"
 
-# Set the X-Frame-Options header to "DENY" for all files
 [[headers]]
   for = "/*"
   [headers.values]
+    X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
