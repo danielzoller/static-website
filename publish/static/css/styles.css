@@ -51,3 +51,33 @@
 /* ============================================== */
 
 /* Single item */
+
+/* ============================================== */
+/* ============================================== */
+/* 404 STYLES */
+/* ============================================== */
+/* ============================================== */
+
+/* ============================================== */
+/* FIRST SECTION */
+/* ============================================== */
+
+html.body-404 {
+    background-color: #000000;
+}
+
+h1.number-404 {
+    font-family: 'intervoguesoft-bold', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+p.text-404 {
+    font-family: 'intervoguesoft-bold', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+}
